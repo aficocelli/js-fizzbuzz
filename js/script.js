@@ -24,7 +24,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
 
   for( i = 0; i < 100; i++ ) {
 
-    if ( (insiemeNumeri[i] %5 == 0) && (insiemeNumeri[i] %3 == 0) ) {
+    if ( insiemeNumeri[i] %5 == 0 && insiemeNumeri[i] %3 == 0 ) {
 
       insiemeNumeri[i] = "FizzBuzz";
 

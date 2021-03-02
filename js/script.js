@@ -20,7 +20,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
 
   }
 
-  // 2 se numero è multiplo di 3 Fizz
+  // 2 se numero è multiplo di 3, 5 o entrambi cambio valore
 
   for( i = 0; i < 100; i++ ) {
 
@@ -40,15 +40,11 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
 
   }
 
-  console.log(insiemeNumeri);
+  // 3 stampo i numeri dell' array creato
+
+  for ( i = 0; i < 100; i++) {
+
+      console.log(insiemeNumeri[i]);
 
 
-
-
-
-// 3 se numero è multiplo di 5 Buzz
-
-
-
-
-// 4 se numero è multiplo sia di 3 che di 5 fizzbuzz
+  }

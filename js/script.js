@@ -35,7 +35,30 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
     }
 
     // stampo numeri contenuti nell'array
-    
-    console.log(insiemeNumeri[i]);
+
+    document.getElementById('numeri').innerHTML = document.getElementById('numeri').innerHTML + insiemeNumeri[i] + ", ";
+  }
+
+
+
+  for ( i = 0 ; i < 100; i++ ) {
+
+    if ( insiemeNumeri[i] %5 == 0 && insiemeNumeri[i] %3 == 0 ) {
+
+      console.log( "FizzBuzz" );
+
+    } else if ( insiemeNumeri[i] %5 == 0 ){
+
+      console.log( "Buzz" );
+
+    } else if ( insiemeNumeri[i] %3 == 0 ) {
+
+      console.log( "Fizz" );
+
+    } else {
+
+      console.log( insiemeNumeri[i] );
+
+    }
 
   }

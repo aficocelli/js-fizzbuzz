@@ -18,11 +18,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
     // creo array con tutti i 100 numeri
     insiemeNumeri.push(numero);
 
-  }
-
-  // 2 se numero è multiplo di 3, 5 o entrambi cambio valore
-
-  for( i = 0; i < 100; i++ ) {
+    // 2 se numero è multiplo di 3, 5 o entrambi cambio valore
 
     if ( insiemeNumeri[i] %5 == 0 && insiemeNumeri[i] %3 == 0 ) {
 
@@ -38,13 +34,8 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
 
     }
 
-  }
-
-  // 3 stampo i numeri dell' array creato
-
-  for ( i = 0; i < 100; i++) {
-
-      console.log(insiemeNumeri[i]);
-
+    // stampo numeri contenuti nell'array
+    
+    console.log(insiemeNumeri[i]);
 
   }
